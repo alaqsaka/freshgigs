@@ -7,7 +7,7 @@
 <i class="fa-solid fa-arrow-left"></i> Back</a>
 
 <div class="mx-4">
-    <div class="bg-gray-50 border border-gray-200 p-10 rounded">
+    <x-card class="">
         <div class="flex flex-col items-center justify-center text-center">
             <img src="{{ asset('images/no-image.png') }}" alt="" class="w-48 mr-6 mb-6"/>
 
@@ -57,7 +57,8 @@
                     >
                 </div>
         </div>
-    </div>
+        
+    </x-card>
 </div>
 
 @endsection
