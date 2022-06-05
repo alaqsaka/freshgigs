@@ -17,7 +17,7 @@
                     <label for="company" class="inline-block text-lg mb-2">
                         Company Name
                     </label>
-                    <input type="text" name="company" class="border border-gray-200 rounded p-2 w-full">
+                    <input type="text" name="company" class="border border-gray-200 rounded p-2 w-full" value="{{ old('company') }}">
 
                     @error('company')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
@@ -29,7 +29,8 @@
                         Job Title
                     </label>
                     <input type="text" name="title" class="border border-gray-200 rounded p-2 w-full"
-                    placeholder="Example: Senior React Frontend Developer">
+                    placeholder="Example: Senior React Frontend Developer"
+                    value="{{ old('title') }}">
                     @error('title')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
                     @enderror
@@ -39,7 +40,7 @@
                     <label for="location" class="inline-block text-lg mb-2">
                         Job Location
                     </label>
-                    <input type="text" name="location" class="border border-gray-200 rounded p-2 w-full">
+                    <input type="text" name="location" class="border border-gray-200 rounded p-2 w-full" value="{{ old('location') }}">
                     
                     @error('location')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
@@ -50,7 +51,7 @@
                     <label for="email" class="inline-block text-lg mb-2">
                         Contact Email
                     </label>
-                    <input type="text" name="email" class="border border-gray-200 rounded p-2 w-full">
+                    <input type="text" name="email" class="border border-gray-200 rounded p-2 w-full" value="{{ old('email') }}">
 
                     @error('email')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
@@ -61,7 +62,7 @@
                     <label for="website" class="inline-block text-lg mb-2">
                         Website/Application URL
                     </label>
-                    <input type="text" name="website" class="border border-gray-200 rounded p-2 w-full">
+                    <input type="text" name="website" class="border border-gray-200 rounded p-2 w-full" value="{{ old('website') }}">
 
                     @error('website')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
@@ -73,7 +74,8 @@
                         Tags (Comma Separated)
                     </label>
                     <input type="text" name="tags" class="border border-gray-200 rounded p-2 w-full" 
-                    placeholder="Example: Laravel, Backend, Postgres, etc">
+                    placeholder="Example: Laravel, Backend, Postgres, etc"
+                    value="{{ old('tags') }}">
 
                     @error('tags')
                         <p class="text-red-500 text-xs-mt-1">{{ $message }}</p>
@@ -103,6 +105,7 @@
                         name="description"
                         rows="10"
                         placeholder="Include tasks, requirements, salary, etc"
+                       
                     ></textarea>
 
                     @error('description')
