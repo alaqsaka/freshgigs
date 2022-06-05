@@ -38,7 +38,7 @@ Route::get('/', [ListingController::class, 'index']);
 // });
 
 // with route model binding
-Route::get('/listings/{listing}', [ListingController::class, 'show']);
+
 
 // Common Resource Routes: 
 // index - Show all listings
@@ -48,3 +48,12 @@ Route::get('/listings/{listing}', [ListingController::class, 'show']);
 // edit - Show for to edit listing
 // update - Update listing
 // destroy
+
+// Show Create Form 
+Route::get('/listings/create', [ListingController::class, 'create']);
+
+// Store listing data
+Route::post('/listings', [ListingController::class, 'store']);
+
+// show Single listing (taro paling bawah)
+Route::get('/listings/{listing}', [ListingController::class, 'show']);
