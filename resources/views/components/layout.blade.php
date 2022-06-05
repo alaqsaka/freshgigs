@@ -27,7 +27,7 @@
         <title>Fresh Gigs | Find Jobs and Gigs For Fresh Graduates</title>
     </head>
     <body class="mb-48">
-        <nav class="flex justify-between items-center mb-4">
+        <nav class="flex justify-between items-center mb-4 py-5">
             <a href="/" class="text-sky-400 text-2xl font-semibold ml-2">
                 Fresh Gigs
             </a>
@@ -62,5 +62,7 @@
                 >Post Job</a
             >
         </footer>
+
+        <x-flash-message />
     </body>
 </html>
