@@ -61,5 +61,8 @@ Route::get('/listings/{listing}/edit', [ListingController::class, 'edit']);
 // Edit submit to update UPDATE LISTING
 Route::put('/listings/{listing}', [ListingController::class, 'update']);
 
+// Delete listing
+Route::delete('/listings/{listing}', [ListingController::class, 'destroy']);
+
 // show Single listing (taro paling bawah)
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
