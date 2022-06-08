@@ -122,7 +122,7 @@
 
                 <div class="mb-6">
                     <button
-                        class="bg-sky-500 text-white rounded py-2 px-4 hover:bg-black"
+                        class="bg-gray-400 text-white rounded py-2 px-4 hover:bg-black"
                     >
                         Update Gig
                     </button>

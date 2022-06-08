@@ -8,8 +8,8 @@ class="relative h-72 bg-gray-400 flex flex-col justify-center align-center text-
 ></div> --}}
 
 <div class="z-10">
-    <h1 class="text-6xl font-bold uppercase text-white">
-        FreshGigs
+    <h1 class="text-6xl font-bold text-white">
+        freshgigs
     </h1>
     <p class="text-2xl text-gray-200 font-bold my-4">
         Find Jobs and Gigs for Fresh Graduates
