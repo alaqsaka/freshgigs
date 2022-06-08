@@ -8,8 +8,8 @@ class="relative h-72 bg-gradient-to-r from-gray-300 to-gray-500 flex flex-col ju
 ></div> --}}
 
 <div class="z-10">
-    <h1 class="text-6xl font-bold text-white">
-        freshgigs
+    <h1 class="text-5xl font-bold text-white">
+        Welcome to your professional community
     </h1>
     <p class="text-2xl text-gray-200 font-bold my-4">
         Find Jobs and Gigs for Fresh Graduates
