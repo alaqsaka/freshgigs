@@ -55,5 +55,11 @@ Route::get('/listings/create', [ListingController::class, 'create']);
 // Store listing data
 Route::post('/listings', [ListingController::class, 'store']);
 
+// Show edit form 
+Route::get('/listings/{listing}/edit', [ListingController::class, 'edit']);
+
+// Edit submit to update UPDATE LISTING
+Route::put('/listings/{listing}', [ListingController::class, 'update']);
+
 // show Single listing (taro paling bawah)
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
