@@ -29,7 +29,7 @@
                 },
             };
         </script>
-        <title>Fresh Gigs | Find Jobs and Gigs For Fresh Graduates</title>
+        <title>freshgigs | Find Jobs and Gigs For Fresh Graduates</title>
     </head>
     <style>
         body {
@@ -62,9 +62,10 @@
     
 
         <footer
-            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-gray-400  text-white h-24 mt-24 md:justify-center"
+            class="fixed bottom-0 left-0 w-full flex items-center justify-start bg-gray-400  text-white h-24 mt-24 md:justify-center"
         >
-            <p class="ml-2">Copyright &copy; 2022, All Rights reserved</p>
+           
+            <p class="ml-2">Made with ❤️ from Indonesia. freshgigs ©2022</p>
 
             <a
                 href="/listings/create"
