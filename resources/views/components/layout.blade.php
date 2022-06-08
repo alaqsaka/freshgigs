@@ -12,6 +12,9 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
         <script src="//unpkg.com/alpinejs" defer></script>
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
@@ -22,15 +25,21 @@
                             laravel: "#ef3b2d",
                         },
                     },
+                    }
                 },
             };
         </script>
         <title>Fresh Gigs | Find Jobs and Gigs For Fresh Graduates</title>
     </head>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
     <body class="mb-48">
         <nav class="flex justify-between items-center mb-4 py-5">
-            <a href="/" class="text-sky-400 text-2xl font-semibold ml-2">
-                Fresh Gigs
+            <a href="/" class="text-gray-400 text-2xl font-semibold ml-2">
+                freshgigs
             </a>
             <ul class="flex space-x-6 mr-6 text-lg">
                 <li>
@@ -53,7 +62,7 @@
     
 
         <footer
-            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-sky-500  text-white h-24 mt-24 md:justify-center"
+            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-gray-400  text-white h-24 mt-24 md:justify-center"
         >
             <p class="ml-2">Copyright &copy; 2022, All Rights reserved</p>
 
