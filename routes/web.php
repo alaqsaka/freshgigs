@@ -35,7 +35,6 @@ Route::get('/', [ListingController::class, 'index']);
 //         abort('404');
 //     }
 
-    
 // });
 
 // with route model binding
@@ -76,3 +75,9 @@ Route::post('/users', [UserController::class, 'store'] );
 
 // Log User Out
 Route::post('/logout', [UserController::class, 'logout']);
+
+// Show Login Form 
+Route::get('/login', [UserController::class, 'login']);
+
+// Login User
+Route::post('/users/authenticate', [UserController::class, 'authenticate']);
